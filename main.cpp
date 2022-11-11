@@ -43,7 +43,6 @@ int main()
   std::cout << printPoint(&point) << " with velocities " << printPoint(&velocities) << " after 10 seconds is ";
   move(&point,&velocities,10);
   std::cout << printPoint(&point) << std::endl;
-  return 0;
 
   //creae/dete
 
@@ -53,5 +52,7 @@ int main()
   std::cout << "Created point " << printPoint(cord) << " with length " << length(cord) << std::endl;
   deleteCoord3D(cord);
   std::cout << "Deleted point" << std::endl;
+
+    return 0;
 
 }

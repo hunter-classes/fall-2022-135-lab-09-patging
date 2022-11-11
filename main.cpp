@@ -1,3 +1,9 @@
+/*
+Patrick Ging
+Professor Zamanksy
+Lab 9
+main.cpp
+*/
 #include <iostream>
 
 

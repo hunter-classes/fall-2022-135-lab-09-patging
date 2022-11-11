@@ -1,3 +1,9 @@
+/*
+    Patrick Ging
+    Professor Zamanksy
+    Lab 09 
+    poem.cpp
+*/
 #include <iostream>
 
 std::string * createAPoemDynamically() {

@@ -1,9 +1,14 @@
+/*
+    Patrick Ging
+    Professor Zamanksy
+    Lab 09 
+    tests.cpp
+*/
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include <iostream>
 #include "doctest.h"
 
 #include "funcs.h"
-#include "coord3d.h"
 
 TEST_CASE("Testing the Coord3D class") {
     Coord3D p = {1,2,3};
@@ -87,8 +92,5 @@ TEST_CASE("Delete AND Create funcs") {
     deleteCoord3D(c2);
     deleteCoord3D(c3);
 
-    // if memory is resused it'll be different
-    CHECK((*c3).x != -1);
-    CHECK((*c3).y != 121);
-    CHECK((*c3).z != 121);
+
 };
